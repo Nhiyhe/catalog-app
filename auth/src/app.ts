@@ -15,7 +15,6 @@ const BASE_URL = "/api/users";
 
 //setting up cookie session
 app.set("trust proxy", true);
-
 app.use(
   cookieSession({
     signed: false,
